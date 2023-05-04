@@ -1,0 +1,47 @@
+.profile_pic {
+    text-align: center;
+}
+
+.profile_info {
+    padding-left: 40px;}
+
+.profile_info_line {
+    display: flex;
+    line-height: 19px;
+}
+
+.profile_info_data1 {
+    margin-right: 22px;
+}
+
+.profile_info_data2 {
+    margin-right: 26px;
+}
+
+.profile_info_data3 {
+    margin-right: 19px;
+}
+
+.profile_info_data4 {
+    margin-right: 8px;
+}
+
+.profile_info_data5 {
+    margin-right: 8px;
+}
+
+.data_txt {
+    font-size: 13px;
+}
+
+.btnedit {
+    width: 125px;
+    margin-left: 125px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.sp {
+    margin-top: 100px;
+}

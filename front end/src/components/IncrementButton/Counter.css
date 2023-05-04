@@ -1,0 +1,14 @@
+.counter button{
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.MuiFab-sizeMedium {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.MuiFab-label {
+    /* margin-left: -3px !important; */
+}

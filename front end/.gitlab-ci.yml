@@ -1,0 +1,66 @@
+stages:
+  - build
+  - deploy
+  
+build_job:
+  image: node:10-alpine
+  stage: build
+  only:
+  - expo
+  tags:
+  - alpine-docker
+  before_script:
+    - echo "Installing NPM Dependencies and building React app"
+  script:
+    - npm install
+    - npm run build
+  after_script:
+    - echo "Installation and build successfull"
+  cache:
+    key: install-cache
+    paths:
+      - node_modules/
+  artifacts:
+    paths:
+      - build/
+  
+deploy_job:
+  image: google/cloud-sdk:alpine
+  stage: deploy
+  only:
+  - expo
+  tags:
+  - alpine-docker
+  dependencies: 
+    - build_job
+  before_script:
+  - "ServiceName=${CI_PROJECT_NAME/./-}"
+  - "echo $ServiceName"
+  - |
+    cat <<EOF >> app.yaml
+    runtime: nodejs14
+    service: $ServiceName
+    instance_class: B1
+    manual_scaling:
+      instances: 1
+    handlers:
+    # Serve all static files with url ending with a file extension
+    - url: /(.*\..+)$
+      static_files: build/\1
+      upload: build/(.*\..+)$
+    # Catch all handler to index.html
+    - url: /.*
+      static_files: build/index.html
+      upload: build/index.html
+    EOF
+  - "cat app.yaml"
+  - echo $SERVICEKEY >  $CI_PIPELINE_ID.json
+  script:
+  - gcloud auth activate-service-account --key-file $CI_PIPELINE_ID.json
+  - gcloud --project groupnexus-poc-285411 app deploy --version v1
+  - url=$(gcloud app services browse $ServiceName --no-launch-browser --project groupnexus-poc-285411)
+  - echo $url
+  after_script:
+  - rm $CI_PIPELINE_ID.json
+
+

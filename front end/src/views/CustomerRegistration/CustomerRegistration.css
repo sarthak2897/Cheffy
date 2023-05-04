@@ -1,0 +1,67 @@
+.card-mod {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.card-header {
+    background-color: #3F51B5;
+    color: white;
+}
+span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    font-size: 13px;
+    color: black;
+}
+.passwordMatch {
+    font-size: 0.9em;
+    color: red;
+}
+.label-text {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-control {
+    border-color: #3F51B5;
+    line-height: 0;
+    font-size: 0.8rem;
+}
+
+.check {
+    border-color: #3F51B5;
+    margin-right: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.btn-style {
+    background-color: #3F51B5;
+    color: white;
+    width: -webkit-fill-available;
+}
+
+.form-check-inline{
+    font-size: 12px;
+}
+
+.form-check-input[type=radio] {
+    border-radius: 0%;
+}
+.label-text {
+  
+    color: #3b3a3a;
+}
+.form-check-label {
+   
+    color: black;
+}
+
+.customer_page_btn {
+    margin-top: 40px;
+}
+
+.down {
+    margin-bottom: 5px;
+}

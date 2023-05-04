@@ -1,0 +1,86 @@
+.carousel-item .col-md-3 {
+    float: left;
+}
+span.sr-only {
+    display: none;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none!important;}
+
+    .carousel-indicators li {
+        display: none!important;}
+
+        @media(max-width:1000px){
+            .web-view{
+                display: none!important;
+            }
+        }
+
+        .carousel-control-next-icon {
+            background-image: none!important;
+        }
+        .carousel-control-prev-icon {
+            background-image: none!important;
+        }
+
+       
+            .MuiFormGroup-root {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row!important;
+            }
+
+            .meal-type img{
+                /* width: 5%; */
+                height: auto;
+                margin-left: 20px;
+                border: 2px solid #ba9011;
+                cursor: pointer;
+                /* display: flex;
+                flex-wrap: wrap;
+                flex-direction: row!important; */
+            }
+            /* .meal-type p{
+               
+                margin-left: 20px;
+              
+            } */
+
+.down-space {
+    margin-top: 30px;
+}
+
+.up-space {
+    margin-top: 30px;
+}
+
+.cuisine-fit {
+    margin-bottom: -10px;
+}
+
+h6 {
+    margin-bottom: 10px;
+}
+
+.space-from-up{
+    margin-top: 37px;
+}
+        
+        
+
+/* .input:active 
+.input:checked 
+{
+    border:1px solid #097BE4;
+ } */
+
+ .resDiv{
+     text-align: center;
+     color : red;
+     margin-top: 10px;
+ }
+
+
+ .MuiRadio-colorSecondary.Mui-checked{
+     color : #3F51B5 !important;
+ }

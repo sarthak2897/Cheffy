@@ -1,0 +1,20 @@
+.main{
+    margin : 20px auto;
+    width:70%;
+
+}
+.price{
+    float:right;
+}
+
+  .MuiCard-root{
+    /* margin : 20px auto !important; */
+    /* margin-bottom : 20px; */
+    /* background-color: khaki !important; */
+} 
+
+ .orderCards{
+    /* margin : 20px auto !important; */
+    margin-bottom: 20px;
+    /* background-color: khaki !important; */
+} 

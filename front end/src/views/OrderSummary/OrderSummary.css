@@ -1,0 +1,89 @@
+
+.main-section1{
+    
+    padding-left: 33%;
+    padding-top: 2em;
+    font-family:"roboto";
+}
+
+.heading1{
+    height: 3em;
+    background-color: #FF8C00;
+    width: 30em;
+    text-align: center;
+    padding-top: 0.5em;
+    color:white;
+}
+.addr1{
+    max-width:25em;
+    font-weight:600;
+    font-size:1.1em;
+    color:#3B3C36;
+    padding-bottom:0.3em;
+    border-bottom:2px solid lightgray;
+}
+.chefInfo1{
+    max-width:17em;
+    font-weight:600;
+    font-size:1.1em;
+    color:#3B3C36;
+   line-height:2em;
+    padding-left:0.6em;
+}
+.heading-content1{
+    font-size: 1.5em;
+    font-family: "roboto";
+}
+.disclaimer1{
+    max-width:25em;
+    border-bottom:2px solid lightgrey;
+    padding-bottom:0.2em;
+    max-width:27em;
+}
+#subTotal1{
+    padding-left:192px;
+    color:black;
+    font-weight:600;
+}
+#tax1{
+    padding-left:232px;
+    padding-bottom:0.3em;
+    color:black;
+    font-weight:600;
+    max-width:25em;
+   
+}
+#submit1{
+    background-color: #FF8C00;
+    width: 55%;
+}
+#total1{
+    padding-left:205px;
+    padding-top:1em;
+}
+.tamount1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top:2px solid lightgrey;
+}
+#disc1{
+    font-size:0.9em;
+}
+#input1{
+    margin-right:0.5em;
+}
+.info1{
+    padding-left:3%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width:27em;
+}
+.addressMain1{
+    color:grey;
+}
+
+.addressMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

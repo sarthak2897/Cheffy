@@ -1,0 +1,23 @@
+.header{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .logo{
+    width: 25vh;
+    height: 12vh;
+    object-fit: contain;
+    margin: 5px 10px;
+    cursor: pointer;
+    background-position: center;
+    margin-left: 125px;
+  }
+
+  .header p{
+    margin : 5px 10px;
+  }

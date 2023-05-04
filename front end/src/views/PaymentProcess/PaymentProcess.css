@@ -1,0 +1,73 @@
+
+.main-section{
+    
+    padding-left: 33%;
+    padding-top: 2em;
+    font-family:"roboto";
+}
+
+.heading{
+    height: 3em;
+    background-color: #FF8C00;
+    width: 30em;
+    text-align: center;
+    padding-top: 0.5em;
+    color:white;
+}
+
+
+.heading-content{
+    font-size: 1.5em;
+    font-family: "roboto";
+}
+
+
+
+#submit{
+    background-color: #FF8C00;
+    width: 55%;
+}
+.total{
+    padding-left:245px;
+    padding-top:1em;
+}
+.tamount{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom:2px solid lightgray;
+    width:25em;
+}
+
+#input{
+    margin-right:0.5em;
+}
+.info{
+    padding-left:3%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.confirm-booking-main{
+    color:black;
+}
+.total-tax{
+    padding-left:209px;
+    
+}
+.famount{
+    padding-left:220px;
+}
+
+.buttonView{
+    margin: 20px auto;
+}
+.buttonView2{
+    margin-left: 20px !important;
+}
+
+/* .StripeCheckout{
+    background-color: #3f51b5 !important;
+} */
+
+.stripeCheckoutButton{
+    margin : 10px auto;
+}

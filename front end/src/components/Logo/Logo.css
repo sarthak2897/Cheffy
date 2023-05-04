@@ -1,0 +1,7 @@
+.cheffyLogo{
+    width: 20vh;
+    height: 8vh;
+    object-fit: contain;
+    margin : 5px 10px;
+    cursor: pointer;
+  }
